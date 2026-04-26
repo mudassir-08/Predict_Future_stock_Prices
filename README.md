@@ -1,13 +1,13 @@
 #  Stock Price Prediction (Short-Term) — Research-Based Project
 
-## 📌 Overview
+##  Overview
 
 This project focuses on predicting the **next day’s closing stock price** using historical market data. A research-oriented approach is applied to explore relationships between stock features and evaluate machine learning models for short-term forecasting.
 
 The analysis combines **data exploration, regression modeling, and visualization** to derive meaningful insights about stock price behavior.
 
 
-## 🎯 Objectives
+##  Objectives
 
 - Analyze historical stock market data  
 - Understand relationships between price features  
@@ -16,7 +16,7 @@ The analysis combines **data exploration, regression modeling, and visualization
 - Evaluate predictions using metrics and visualization  
 
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** Yahoo Finance (via `yfinance` API)  
 - **Stock Used:** Apple (AAPL) *(can be changed)*  
@@ -32,7 +32,7 @@ The analysis combines **data exploration, regression modeling, and visualization
 - Close (Next Day Closing Price)
 
 
-## 🔍 Methodology
+##  Methodology
 
 ### 1. Data Collection
 - Retrieved stock data using `yfinance`
@@ -56,7 +56,7 @@ The analysis combines **data exploration, regression modeling, and visualization
 - Compared actual vs predicted prices using line plots  
 
 
-## 🧠 Model Performance
+##  Model Performance
 
 | Model              | MSE ↓ | R² ↑ | Performance |
 |-------------------|------|------|------------|
@@ -64,7 +64,7 @@ The analysis combines **data exploration, regression modeling, and visualization
 | Random Forest     | 9.81 | 0.902 |  Moderate |
 
 
-## 📊 Key Findings
+##  Key Findings
 
 - Linear Regression outperformed Random Forest in both accuracy and visualization  
 - Strong linear relationship exists between:
@@ -72,7 +72,7 @@ The analysis combines **data exploration, regression modeling, and visualization
 - Random Forest showed larger deviations and lower generalization performance  
 
 
-## ⚙️ Important Insight
+##  Important Insight
 
 Although stock markets are often considered complex and non-linear, this study shows that:
 
@@ -81,14 +81,14 @@ Although stock markets are often considered complex and non-linear, this study s
 This highlights the importance of **understanding data before choosing complex models**.
 
 
-## ⚠️ Limitations
+##  Limitations
 
 - External factors (news, economy, sentiment) not included  
 - No technical indicators used (e.g., moving averages)  
 - Limited to short-term prediction  
 - Models not hyperparameter-tuned  
 
-## 🚀 Future Work
+##  Future Work
 
 - Add lag features (previous day prices)   
 - Apply advanced models (LSTM, XGBoost)  
@@ -96,7 +96,7 @@ This highlights the importance of **understanding data before choosing complex m
 - Deploy a real-time prediction system  
 
 
-## 🏁 Conclusion
+##  Conclusion
 This project demonstrates that **model simplicity can outperform complexity** when data relationships are inherently linear.
 
 Linear Regression proved to be highly effective for short-term stock prediction, while Random Forest did not provide additional benefits without tuning.
@@ -104,12 +104,12 @@ Linear Regression proved to be highly effective for short-term stock prediction,
 > **The key takeaway:**  
 > Choosing the right model depends more on **data characteristics** than model complexity.
 
-## 📁 Project Structure
+##  Project Structure
 Predict_Future_Stock_Prices/
 │── stock_prediction.ipynb
 │── README.md
 
-## 🛠️ Tools & Libraries
+##  Tools & Libraries
 
 - Python  
 - Pandas  
@@ -118,7 +118,7 @@ Predict_Future_Stock_Prices/
 - Scikit-learn  
 - yfinance  
 
-## 👨‍💻 Author
+##  Author
 
 **Malik Muhammad Mudassir Iqbal**  
 AI/ML Engineering Intern — DevelopersHub Corporation
